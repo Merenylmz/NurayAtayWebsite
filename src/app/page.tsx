@@ -8,17 +8,18 @@ import { Faq } from "@/components/Faq";
 // import { Cta } from "@/components/Cta";
 
 import { benefitFour, benefitOne, benefitThree, benefitTwo } from "@/components/data";
+// import Image from "next/image";
 export default function Home() {
   return (
     <Container>
       <Hero />
+      <div id="task"></div>
       <SectionTitle
         preTitle="Nuray Atay Beauty"
-        title="Yapılan İşlemler"
+        title="Yapılan Islemler"
       >
         Nuray Atay Güzellik Merkezi olarak, her biri alanında uzman ekibimiz ve en güncel teknolojilerle size özel hizmetler sunuyoruz. İster pürüzsüz bir cilt, ister göz alıcı tırnaklar veya kalıcı makyaj uygulamaları olsun, tüm işlemlerimizde beklentilerinizin ötesine geçmeyi hedefliyoruz.
       </SectionTitle>
-        <div id="task"></div>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -33,7 +34,7 @@ export default function Home() {
 
       </SectionTitle>
 
-      <Video videoId="fZ0D0cnR88E" />
+    
 
       <SectionTitle
         preTitle="Yorumları"
@@ -53,3 +54,9 @@ export default function Home() {
     </Container>
   );
 }
+
+
+
+
+
+

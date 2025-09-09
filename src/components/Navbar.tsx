@@ -1,13 +1,13 @@
 "use client";
 import Link from "next/link";
-import ThemeChanger from "./DarkSwitch";
+// import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
 
   return (
-    <div className="w-full">
+    <div className="w-full border-b border-b-yellow-400">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
         <Image 
@@ -19,9 +19,9 @@ export const Navbar = () => {
 
         {/* get started  */}
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
-            <ThemeChanger />
+            {/* <ThemeChanger /> */}
             <div className="hidden mr-3 lg:flex nav__item">
-              <Link href="/contact" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+              <Link href="/contact" className="px-6 py-2 text-white  rounded-md md:ml-5" style={{backgroundColor: "goldenrod"}}>
                 İletişime Geçin
               </Link>
             </div>
@@ -32,7 +32,7 @@ export const Navbar = () => {
             <>
                 <Disclosure.Button
                   aria-label="Toggle Menu"
-                  className="px-2 py-1 text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700">
+                  className="px-2 py-1 text-gray-500 rounded-md lg:hidden hover:text-yellow-400 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700">
                   <svg
                     className="w-6 h-6 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,13 +56,13 @@ export const Navbar = () => {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     
-                    <Link href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
+                    <Link href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-yellow-400  focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
                         Anasayfa
                       </Link>
                       <Link href="/contact" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
                         İletişim
                       </Link>
-                    <Link href="/contact" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
+                    <Link href="/contact" className="w-full px-6 py-2 mt-3 text-center text-white rounded-md lg:ml-5" style={{backgroundColor: "gold"}}>         
                         İletişime Geçin
                     </Link>
                   </>
@@ -75,12 +75,12 @@ export const Navbar = () => {
         <div className="hidden text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
               <li className="mr-3 nav__item">
-                <Link href="/" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+                <Link href="/" className="inline-block px-4 py-2 text-lg font-normal  no-underline rounded-md dark:text-gray-200 hover:text-yellow-400  focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
                   Anasayfa
                 </Link>
               </li>
               <li className="mr-3 nav__item">
-                <Link href="/contact" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+                <Link href="/contact" className="inline-block px-4 py-2 text-lg font-normal  no-underline rounded-md dark:text-gray-200 hover:text-yellow-400 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
                   İletişim
                 </Link>
               </li>

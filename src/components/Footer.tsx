@@ -23,8 +23,8 @@ export function Footer() {
                   width="50"
                   height="50"
                   className="w-8"
-                />
-                {/* <span>Nuray Atay Beauty</span> */}
+                  />
+                <span className="font-tangerine font-bold text-4xl text-yellow-400">Nuray Atay Beauty</span>
               </Link>
             </div>
 

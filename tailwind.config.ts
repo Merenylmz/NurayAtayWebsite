@@ -20,6 +20,7 @@ const config: Config = {
     fontFamily: {
       sans: ["Inter", ...defaultTheme.fontFamily.sans],
       stock: [defaultTheme.fontFamily.sans],
+      tangerine: ['var(--font-tangerine)']
     },
   },
   variants: {

@@ -3,6 +3,7 @@ import React from "react";
 import { Container } from "@/components/Container";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 export const Faq = () => {
   return (
@@ -36,21 +37,16 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Randevu Oluşturmak İçin Ne Yapmalıyım?",
+    answer: `Randevunuzu web sitemizdeki iletişim kısmından, telefon numaramız veya sosyal medya hesaplarımız üzerinden kolayca alabilirsiniz. Size en uygun gün ve saat için ekibimizle görüşerek randevunuzu hemen oluşturabilirsiniz.`,
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Kullandığınız Ürünler Güvenli ve Kaliteli mi?",
+    answer: "Evet, merkezimizde kullanılan tüm ürünler dermatolojik olarak onaylı, dünya çapında kabul görmüş markalardan oluşmaktadır. Müşterilerimizin sağlığı ve güvenliği bizim için en önemli önceliktir.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Yapılan İşlemlerin Kalıcılığı Ne Kadar Sürer?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
-  },
-  {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "İşlemin türüne göre kalıcılık süresi değişir. Örneğin, protez tırnakların 3-4 haftada bir bakıma ihtiyacı olurken, kalıcı makyaj uygulamaları cilt tipine göre 1-2 yıl kalıcılığını koruyabilir. İşlem sonrası bakım önerilerimizle kalıcılığı uzatabilirsiniz.",
   },
 ];

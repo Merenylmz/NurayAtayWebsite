@@ -1,25 +1,22 @@
 import { CheckBadgeIcon } from "@heroicons/react/24/solid";
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import nailsImg from "../../public/img/task1.png";
+import benefitTwoImg from "../../public/img/task2.png";
+import makeUpImg from "../../public/img/task3.png";
+import bodyImg from "../../public/img/task4.png";
 
 const benefitOne = {
   title: "Protez Tırnak",
   desc: "Estetik ve zarafeti birleştiren protez tırnak uygulamalarımızla kusursuz ellere sahip olun. Hem dayanıklı hem de şık tırnaklarla her an bakımlı hissedin.",
-  image: benefitOneImg,
+  image: nailsImg,
   bullets: [
     {
-      title: "Tırnaklarınızda Kusursuz Sanat",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Sadece dayanıklı değil, aynı zamanda estetik olarak kusursuz tırnaklara sahip olmak ister misiniz",
+      desc: "Alanında uzman ekibimiz, en kaliteli malzemelerle tırnaklarınıza zarif bir görünüm kazandırır.",
       icon: <CheckBadgeIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <CheckBadgeIcon />,
-    },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Şık ve güçlü tırnaklara sahip olmak artık hayal değil.",
+      desc: "Profesyonel uygulamalarımızla, tırnaklarınıza istediğiniz uzunluk ve şekli kazandırıyoruz.",
       icon: <CheckBadgeIcon />,
     },
   ],
@@ -32,17 +29,17 @@ const benefitTwo = {
   bullets: [
     {
       title: "Kalıcı Pürüzsüzlükle Özgürleşin",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      desc: "İstenmeyen tüylerden kurtulmanın en modern ve güvenli yolu lazer epilasyon.",
       icon: <CheckBadgeIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Ellerinizle Fark Yaratın",
+      desc: "Protez tırnaklarımızla kırılmalara elveda diyerek uzun süre kalıcı, bakımlı ve dikkat çeken tırnaklarla her an mükemmel görünün.",
       icon: <CheckBadgeIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Kusursuz Eller, Uzun Süre Kalıcı Güzellik",
+      desc: "Kaliteli ve dayanıklı tırnak tasarımlarıyla elleriniz her zaman bakımlı ve dikkat çekici görünür.",
       icon: <CheckBadgeIcon />,
     },
   ],
@@ -51,21 +48,21 @@ const benefitTwo = {
 const benefitThree = {
   title: "Kalıcı Makyaj",
   desc: "Kaş, dudak ve eyeliner gibi bölgelere uygulanan kalıcı makyaj ile doğal güzelliğinizi ortaya çıkarın. Zamandan tasarruf edin ve her an makyajlı gibi görünün.",
-  image: benefitTwoImg,
+  image: makeUpImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Mikroblading ve Kalıcı Makyaj",
+      desc: "Doğal güzelliğinizi kalıcı olarak ön plana çıkarın.",
       icon: <CheckBadgeIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Zamandan Tasarruf, Sonsuz Güzellik",
+      desc: "Kalıcı makyajla hayatınızı kolaylaştırın. Spor yaparken, yüzerken veya gün içinde makyajınızın bozulmasından endişe etmeyin.",
       icon: <CheckBadgeIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Kalıcı Güzelliğin Sırrı: Kalıcı Makyaj",
+      desc: "Sabahları makyajla vakit kaybetmekten sıkıldınız mı? Kalıcı makyaj uygulamalarımızla kaş, eyeliner ve dudaklarınızda her an kusursuz bir görünüm yakalayın.",
       icon: <CheckBadgeIcon />,
     },
   ],
@@ -75,7 +72,7 @@ const benefitThree = {
 const benefitFour = {
   title: "Vücut ve Cilt Bakımı",
   desc: "Cildinizin ihtiyacına yönelik özel bakımlarımızla tanışın. Derinlemesine temizlik, nemlendirme ve yenileme işlemleriyle cildinizin canlılığını geri kazandırın.",
-  image: benefitTwoImg,
+  image: bodyImg,
   bullets: [
     {
       title: "Cildinize Hak Ettiği Işıltıyı Kazandırın",
