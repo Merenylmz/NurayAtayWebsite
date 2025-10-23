@@ -8,9 +8,11 @@ interface ContainerProps {
 export function Container(props: Readonly<ContainerProps>) {
   return (
     <div
-      className={`container p-8 mx-auto xl:px-0 ${
+      className={`container mx-auto xl:px-0 ${
         props.className ? props.className : ""
-      }`} style={{scrollBehavior: "smooth"}}>
+      } p-4 md:p-8`} // <-- DEĞİŞİKLİK BURADA
+      style={{ scrollBehavior: "smooth" }}
+    >
       {props.children}
     </div>
   );

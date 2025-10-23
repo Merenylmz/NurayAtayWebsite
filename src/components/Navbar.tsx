@@ -21,7 +21,7 @@ export const Navbar = () => {
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
             {/* <ThemeChanger /> */}
             <div className="hidden mr-3 lg:flex nav__item">
-              <Link href="/contact" className="px-6 py-2 text-white  rounded-md md:ml-5" style={{backgroundColor: "goldenrod"}}>
+              <Link href="/contact" className="px-6 py-2 text-white  rounded-md md:ml-5" style={{backgroundColor: "gold"}}>
                 İletişime Geçin
               </Link>
             </div>
